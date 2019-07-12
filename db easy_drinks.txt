@@ -1,7 +1,10 @@
 CREATE TABLE easy_drinks
 (
 drink_name VARCHAR(30) NOT NULL DEFAULT no name,
-
-
+main VARCHAR(30) NOT NULL DEFAULT no name,
+amount1 DEC(3,2) NOT NULL DEFAULT 1.00,
+second VARCHAR(30) NOT NULL DEFAULT no name,
+amount2 DEC(3,2) NOT NULL DEFAULT 1.00,
+directions BLOB
 );
 
